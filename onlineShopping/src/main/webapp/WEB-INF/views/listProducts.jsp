@@ -24,14 +24,14 @@
 
 						</ol>
 					</c:if>
-<c:if test="${userClientCategoryProducts == true}">
+					<c:if test="${userClientCategoryProducts == true}">
 						<ol class="breadcrumb">
 
 
 							<li><a href="${contextRoot}/home">Home</a></li>
-							<li class="active">Category </li>
-							<li class="active">${category.name} </li>
-							
+							<li class="active">Category</li>
+							<li class="active">${category.name}</li>
+
 
 						</ol>
 					</c:if>
@@ -42,3 +42,4 @@
 		</div>
 
 	</div>
+</div>
