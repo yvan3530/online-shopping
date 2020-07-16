@@ -19,6 +19,7 @@
 	</bean> -->
 	
 		<context:component-scan base-package="com.yvan.onlineShopping.controller" />
+		<context:component-scan base-package="com.yvan.shoppingBackend.daoImpl" />
 
 
 	<bean id="viewResolver"
